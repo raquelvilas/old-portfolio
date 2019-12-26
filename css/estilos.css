@@ -1,0 +1,458 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*/
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*/
+
+
+/* CSS after reset
+body {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  background-color: #faf9f9;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.first-page{
+	position:relative;
+	text-align: center;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+}
+
+h2 {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top:160px;
+
+	font-size: 60px;
+	line-height: 70px;
+
+}
+
+h4{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 300px;
+
+	font-size: 34px;
+	line-height: 40px;
+}
+/* 
+.retangulo{
+	position: relative;
+	background-color: #F66508;
+	height: 56px;
+	width: 200px;
+
+	left: 0%;
+	right:0%;
+	top: 400px;
+
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+}
+*/
+
+/* Comment
+.button{
+  position:absolute;
+  left: 0%;
+  right:0%;
+  top:400px;
+
+  background-color: #F66508; 
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.email{
+	position: absolute;
+	width: 174px;
+	height: 13px;
+	left: 0%
+	top: 410px;
+
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #F66508;
+}
+
+.first-page p{
+	
+	text-decoration: none;
+
+	width: 204px;
+	height: 16px;
+	left: 627px;
+	top: 654px;
+
+
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #F66508;
+
+}
+
+
+
+
+.projects{
+	position: relative;
+	width: 1248px;
+	left: 95px;
+}
+
+.overline {
+	position:absolute;
+	width: 66px;
+	height: 9px;
+	left: 96px;
+	top: 809px;
+
+	color: #f66508;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.project-title{
+	position: absolute;
+	width: 1248px;
+	height: 57px;
+	left: 95px;
+	top: 842px;
+
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.project-description{
+	position: absolute;
+	width: 1247px;
+	height: 33px;
+	left: 96px;
+	top: 923px;
+	
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.project-details{
+	position: absolute;
+	width: 1247px;
+	height: 49px;
+	left: 95px;
+	top: 1011px;
+
+	font-size: 16px;
+	line-height: 19px;
+}
+
+
+
+footer{
+	clear:both;
+	text-align: center;
+}
+
+footer img{
+	position: absolute;
+	display: block;
+	width: 160px;
+	height: 160px;
+	left: 639px;
+	top: 10338px;
+}
+
+ul li{
+	display: inline;
+	margin-left: 20px;
+}	
+
+.resume{
+	position: absolute;
+	width: 204px;
+	height: 43px;
+	left: 617px;
+	top: 10589px;
+
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.sarah{
+	display:inline;
+	position: absolute;
+	width: 151px;
+	height: 40px;
+	left: 173px;
+	top: 10707px;
+
+  	background-image: url(../img/logo-Sarah.png);
+  	text-indent: -9999px;
+}
+*/
+
+body {
+  font-family: "roboto";
+  font-style: normal;
+  color: #000000;
+  background-color: #faf9f9;
+}
+
+/* typography*/
+
+
+h1{
+	font-size: 96px;
+ 	font-weight: lighter;
+ 	letter-spacing: -1.5px;
+}
+
+h2{
+	font-size: 60px;
+ 	font-weight: lighter;
+ 	letter-spacing: -0.5px;
+}
+
+h3{
+	font-size: 48px;
+ 	font-weight: normal;
+ 	letter-spacing: 0px;
+}
+
+h4{
+	font-size: 34px;
+ 	font-weight: normal;
+ 	letter-spacing: 0.25px;
+}
+
+h5{
+	font-size: 24px;
+ 	font-weight: normal;
+ 	letter-spacing: 0px;
+}
+
+h6{
+	font-size: 20px;
+ 	font-weight: bold;
+ 	letter-spacing: 0.15px;
+}
+
+p{
+	font-size: 16px;
+ 	font-weight: normal;
+ 	letter-spacing: 0.5px;
+ 	margin:8px;
+}	
+
+.button-text{
+	font-size: 14px;
+ 	font-weight: bold;
+ 	letter-spacing: 1.25px;
+ 	border: none;
+}
+
+.overline{
+	font-size: 10px;
+ 	font-weight: normal;
+ 	letter-spacing: 1.5px;
+ 	color:#F66508;
+ 	margin-top:20%;
+}
+
+/* color*/
+.primary-color{
+	background-color: #F66508; 
+}
+
+.container{
+	position:relative;
+	align-items: center;
+}
+
+
+/* first page*/
+
+.jumbotron{
+	background-color:#faf9f9;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	font-family: "roboto";
+  	font-style: normal;
+  	color: #000000;
+  	text-align: center;
+}
+
+.jumbotron h2{
+  	font-size: 60px;
+ 	font-weight: lighter;
+ 	letter-spacing: -0.5px;
+ 	margin-top: 3%;
+}
+
+
+.jumbotron h5{
+	font-size: 24px;
+ 	font-weight: normal;
+ 	letter-spacing: 0px;
+ 	margin-top: 4%;
+ 	margin-left: auto;
+	margin-right: auto;
+}	
+
+.btn{
+	font-family: "roboto";
+  	font-style: normal;
+  	color: #ffffff;
+  	text-align: center;
+  	font-size: 14px;
+ 	font-weight: bold;
+ 	letter-spacing: 1.25px;
+ 	border: none;
+ 	margin-top: 5%;
+ 	margin-left: auto;
+	margin-right: auto;
+}
+
+.first-page img{
+	width: 50px;
+	height: 50px;
+	color:#F66508;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	display: block;
+}
+
+/* main*/
+
+.project-title{
+	margin-bottom: 16px;
+}
+
+.project-description{
+	color: #958E8A;
+}
+
+.project-info{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	line-height: 16px;
+}
+
+.project.details{
+	line-height: 16px;
+	margin-bottom: 96px;
+}
+
+main img {
+	height: auto; 
+    max-height: 610px;
+    width: auto; 
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left:0px;
+    max-width: 100%; 
+}
+
+
+/* footer*/
+
+.photo{
+	width: 160px;
+	height:160px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom:80px;
+}
+
+.more-about{
+	margin-top: 70px;
+}
+
+.past-companies{
+	margin-bottom: 10px;
+	margin-top: 10%;
+}
+
+
+.past-companies img{
+	height: 40px;
+	width: auto;
+}
+
